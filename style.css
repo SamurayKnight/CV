@@ -1,0 +1,845 @@
+/*SELECTOR UNIVERSAL*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*CONTAINER*/
+.container{
+    width: 58%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    background-color: #3DB2FF;
+    border-radius: 5px;
+}
+
+
+/*PARTE NARANJA*/
+    .sectionN{
+        width: 35%;
+        height: 100%;
+        background-color: #FFEDDA;
+        border-radius: 0% 10% 10% 0%;
+        border: 2px solid #FFB830;
+    }
+
+    .about-me{
+        margin: 10%;
+        border-radius: 5px;
+        height: 65%;
+    }
+
+    .about-me hr{
+        display: none;
+    }
+
+    /*IMÁGEN*/
+        .image{
+            background-color: #FFB830;    
+            margin: 10% 20% 10% 25%;
+            border-radius: 50%;
+            width: 50%;
+            height: 20%;
+        }
+
+        .image img{
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+        }
+
+        /*Perfil*/
+            .profile{
+                height: 35%;
+            }  
+
+            .profile h2{
+                color: #FFB830;
+                font-size: 2rem;
+                text-align: center;
+                margin-bottom: 5%;
+            }
+
+            .profile p{
+                font-size: 1.5rem;
+                margin-bottom: 7%;
+            }   
+
+        /*Contacto*/
+            .contact{ 
+                height: 35%;
+            }
+
+            .contact h2{
+                color: #FFB830;
+                font-size: 2rem;
+                text-align: center;
+                margin-bottom: 5%;
+            }   
+
+            .contact-name{
+                display: none;
+            }
+
+            .contact p{
+                font-size: 1.5rem;
+            }
+
+
+        /*Habilidades*/
+        .skills{
+            height: 35%;
+ 
+        }
+        .skills h2{
+            font-size: 2rem;
+            color: #FFB830;
+            margin: 5%;
+            text-align: center;
+        }
+        .skills-list1{
+            width: 40%;
+            margin: 5%;
+        }
+        .skills-list2{
+            width: 40%;
+            margin: 5% 5% 5% 25%
+        }
+        .skills ul {
+            display: flex;
+        }
+        .skills ul li {
+            margin-bottom: 10%;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+
+
+    /*PARTE AZUL*/
+    .presentation{
+        width: 50%;
+        height: 90%;
+        background-color: #70c8ff;
+        margin: 5%;
+        border-radius: 10%;
+        border: 1px solid #007ccf;
+        box-shadow: 2px 5px 5px #12a0ff;
+    }
+
+    .presentation hr{
+        height: 1px;
+        width: 95%;
+        border-style: none;
+        margin: 2%;
+        background-color: #007ccf;
+    }
+
+
+    /*NOMBRE*/
+        .name {
+            font-size: 2.7rem;
+        }
+
+        .name h1{
+            margin: 2% 0 0 8%;
+        }
+
+        .name h2{
+            margin: 3% 0 0 9%;
+            font-size: 2rem;
+        }
+
+
+    /*EXPERIENCIA*/
+        .experience{
+            width: 95%;
+            margin: auto;
+        }
+
+        .experience h2{
+            margin: 1% 0 1% 6%;
+            font-weight: bold;
+            font-size: 1.7rem;
+        }
+
+            /*Electricidad*/
+            .electricista h3{
+                margin: 2% 0 2% 6%;
+                font-weight: bold;
+                font-size: 1.6rem;
+            }
+
+            .electricista h4{
+                margin: 2% 0 2% 8%;
+                font-weight: bold;
+                font-size: 1.4rem;
+            }
+
+            .electricista p{
+                margin: 2% 0 3% 8%;
+                font-size: 1.3rem;
+            }
+
+
+            /*Cervezas*/
+            .cervezas h3{
+                margin: 2% 0 2% 6%;
+                font-weight: bold;
+                font-size: 1.6rem;
+            }
+
+            .cervezas h4{
+                margin: 2% 0 2% 8%;
+                font-weight: bold;
+                font-size: 1.4rem;
+            }
+
+            .cervezas p{
+                margin: 2% 0 3% 8%;
+                font-size: 1.3rem;
+            }
+
+
+        /*ESTUDIOS*/
+        .study h2{
+            margin: 3% 0 3% 8%;
+            font-weight: bold;
+            font-size: 1.7rem;
+            }
+
+        .study-1 h4{
+            margin: 2% 0 2% 8%;
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+
+        .study-1 p{
+            margin: 2% 0 5% 10%;
+            font-size: 1.3rem;
+        }
+            
+        .study-2 h4{
+            margin: 2% 0 2% 8%;
+            font-weight: bold;
+            font-size: 1.4rem;
+        }   
+
+        .study-2 p{
+            margin: 2% 0 5% 10%;
+            font-size: 1.3rem;
+        }
+
+
+
+    /*MEDIA QUERIES*/
+    @media screen and (max-width: 2270px){
+        /*Imagen*/
+        .image{
+            width: 49%;
+            height: 19%;
+        }
+
+        /*Perfil*/
+        .profile h2{
+            font-size: 1.4rem;
+        }
+        .profile p {
+            font-size: 1.3rem;
+        }
+
+        /*Contacto*/
+        .contact h2{
+            font-size: 1.4rem;
+        }
+        .contact p {
+            font-size: 1.3rem;
+        }
+        
+        /*Habilidades*/
+        .skills h2{
+            font-size: 1.4rem;
+        }
+        .skills ul {
+            display: flex;
+            list-style: none;
+        }
+        .skills ul li {
+            font-size: 1.3rem;
+        }
+    }
+
+    @media screen and (max-width: 2000px){
+        /*Contendor Principal*/
+        .container{
+            width: 60%;
+        }
+
+        /*SECCIÓN NARANJA*/
+        .about-me{
+            margin: 6%;
+        }
+
+        /*Imagen*/
+        .image{
+            width: 48%;
+            height: 17%;
+        }
+
+        /*Perfil*/
+        .profile{
+            height: 35%;
+        }
+
+        .profile h2{
+            font-size: 1.4em;
+        }
+        .profile p {
+            font-size: 1.3rem;
+        }
+
+        /*Contacto*/
+        .contact {
+            height: 35%;
+        }
+        .contact h2{
+            font-size: 1.4rem;
+        }
+        .contact p {
+            font-size: 1.3rem;
+            margin-bottom: 2%;
+        }
+
+        /*Habilidades*/
+        .skills h2{
+          color: #FFB830;
+          margin: 5%;  
+          font-size: 1.4rem;
+        }
+        .skills-list1{
+            width: 40%;
+            margin: auto;
+        }
+        .skills-list2{
+            width: 40%;
+            margin: auto;
+        }
+        .skills ul {
+            display: flex;
+            list-style: none;
+        }        
+        .skills ul li {
+            margin-bottom: 5%;
+            font-size: 1.4rem;
+        }
+    }
+
+    
+    @media screen and (max-width: 1650px){
+
+        /*Contendor Principal*/
+        .container{
+            width: 65%;
+        }
+        
+        /*Imagen*/
+        .image{
+            width: 46%;
+            height: 16%;
+        }
+
+        /*SECCIÓN NARANJA*/
+        .about-me{
+            margin: 5%;
+        }
+
+        /*SECCIÓN NARANJA*/
+        .about-me{
+            margin: 5%;
+        }
+
+        /*Perfil*/
+        .profile h2{
+            font-size: 1.4rem;
+        }
+        .profile p {
+            font-size: 1.2rem;
+        }
+
+        /*Contacto*/
+        .contact h2{
+            font-size: 1.4rem;
+        }
+        .contact p {
+            font-size: 1.2rem;
+        }
+        
+        /*Habilidades*/
+        .skills h2{
+          color: #FFB830;
+          margin: 5%;  
+          font-size: 1.4rem;
+        }
+        .skills-list1{
+            width: 40%;
+            margin: auto;
+        }
+        .skills-list2{
+            width: 40%;
+            margin: auto;
+        }
+        .skills ul {
+            display: flex;
+            list-style: none;
+        }        
+        .skills ul li {
+            margin-bottom: 9%;
+            font-size: 1.4rem;
+        }
+    }
+
+        @media screen and (max-width: 1400px){
+
+        /*Contendor Principal*/
+        .container{
+            width: 70%;
+        }
+        
+        /*Imagen*/
+        .image{
+            width: 45%;
+            height: 15%;
+        }
+
+        /*SECCIÓN NARANJA*/
+        .about-me{
+            margin: 3%;
+        }
+
+        /*Perfil*/
+        .profile h2{
+            font-size: 1.4rem;
+        }
+        .profile p {
+            font-size: 1.2rem;
+
+        }
+
+        /*Contacto*/
+        .contact h2{
+            font-size: 1.4rem;
+        }
+        .contact p {
+            font-size: 1.2rem;
+            margin-bottom: 1%;
+        }
+
+        /*Habilidades*/
+        .skills h2{
+          color: #FFB830;
+          margin: 5%;  font-size: 1.4rem;
+        }
+        .skills-list1{
+            width: 40%;
+            margin: auto;
+        }
+        .skills-list2{
+            width: 40%;
+            margin: auto;
+        }
+        .skills ul {
+            display: flex;
+            list-style: none;
+        }        
+        .skills ul li {
+            margin-bottom: 5%;
+            font-size: 1.4rem;
+        }
+        /*NOMBRE*/
+        .name {
+            font-size: 2.6rem;
+        }
+
+    }
+
+        @media screen and (max-width: 1150px){
+
+        /*Contendor Principal*/
+        .container{
+            width: 76%;
+        }
+        
+        /*Imagen*/
+        .image{
+            width: 47%;
+            height: 11%;
+        }
+
+        /*SECCIÓN NARANJA*/
+        .about-me{
+            margin: 3%;
+        }
+
+        /*Perfil*/
+        .profile h2{
+            font-size: 1.3rem;
+        }
+        .profile p {
+            font-size: 1.1rem;
+
+        }
+
+        /*Contacto*/
+        .contact h2{
+            font-size: 1.3rem;
+        }
+        .contact p {
+            font-size: 1rem;
+            margin-bottom: 3%;
+        }
+        
+        /*Habilidades*/
+        .skills h2{
+          color: #FFB830;
+          margin: 5%;  font-size: 1.4rem;
+        }
+        .skills-list1{
+            width: 40%;
+            margin: auto;
+        }
+        .skills-list2{
+            width: 40%;
+            margin: auto;
+        }
+        .skills ul {
+            display: flex;
+            list-style: none;
+        }        
+        .skills ul li {
+            margin-bottom: 5%;
+            font-size: 1.4rem;
+        }
+        
+        /*NOMBRE*/
+        .name {
+            font-size: 2.4rem;
+        }
+
+    }
+
+
+    @media screen and (max-width:983px){
+
+
+        .presentation{
+            height: 95%;
+            width: 55%;
+            border-radius: 5%;
+        }
+
+        .name h1{
+            font-size: 4rem;
+        }
+
+        .name h2{
+            margin: 1%;
+            text-align: center;
+        }
+
+        .experience p{
+            font-size: 1.2rem;
+        }
+    }
+
+        @media screen and (max-width:750px){
+        .container {
+            width: 95%;
+            display: flex;
+            height: 100%;
+            background-color: #12a0ff;
+            border-radius: none;
+        }
+
+        .sectionN{            
+            border: 1px solid #FFB830;
+            width: 40%;
+            height: auto;
+            border-radius: 0%;
+        }
+
+        
+    /*IMÁGEN*/
+        .image{
+            background-color: #FFB830;    
+            margin:10% 50% 15% 30%;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        .about-me{
+            height: 70%;
+        }
+
+       /*Perfil*/
+        .profile h2{
+            margin-top: 20%;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .profile p {
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        /*Contacto*/
+        .contact {
+        margin-top: 15%;
+        }
+
+        .contact h2{
+            margin-top: 5%;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .contact p {
+            font-weight: bold;
+            font-size: .9rem;
+            margin-bottom: 4%;
+
+        }
+
+        
+        /*Habilidades*/
+        .skills{
+            margin-top: 20%;
+        }
+        .skills h2{
+          color: #FFB830;
+          margin: 8%;  
+          font-size: 1.4rem;
+        }
+        .skills-list1{
+            width: 40%;
+            margin: auto;
+        }
+        .skills-list2{
+            width: 40%;
+            margin: auto;
+        }
+        .skills ul {
+            display: flex;
+            list-style: none;
+        }        
+        .skills ul li {
+            margin-bottom: 8%;
+            font-size: 1.3rem;
+        }
+    
+        /*NOMBRE*/
+        .name {
+            font-size: 2.4rem;
+        }
+
+
+        /*PARTE AZUL*/
+        .presentation{
+            width: 55%;
+            height: auto;
+            background-color: #70c8ff;
+            margin: 2%;
+            border-radius: 1%;
+            border: 2px solid #007ccf;
+            box-shadow: 2px 5px 5px #12a0ff;
+        }
+
+        .presentation hr{
+            height: 1px;
+            width: 95%;
+            border-style: none;
+            margin: 2%;
+            background-color: #007ccf;
+        }
+
+        .presentation h1{
+            font-size: 3.5rem;
+            margin: 5% 0 8% 17%;
+        }
+
+        .presentation h2 {
+            text-align: center;
+            font-size: 1.7rem;
+            margin: 5%;
+        }
+
+
+        .study-1{
+            margin: 5% 0 8% 0;
+        }
+
+        .study-2{
+            margin: 5% 0 8% 0;
+        }
+
+    }
+
+
+    @media screen and (max-width:500px){
+        .container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            background-color: #12a0ff;
+            border: none;
+            border-radius: 0%;
+        }
+
+        .sectionN{
+            background-color: #70c8ff;
+            width: 100%;
+            border: none;
+            border-radius: 0%;
+        }
+
+        
+    /*IMÁGEN*/
+        .image{
+            background-color: #12a0ff;    
+            margin:10% 50% 10% 34%;
+            border-radius: 50%;
+            width: 150px;
+            height:150px;
+        }
+
+        .about-me hr{
+            height: 1px;
+            width: 95%;
+            border-style: none;
+            margin: 2%;
+            background-color: #007ccf;
+        }
+
+       /*Perfil*/
+        .profile h2{
+            color: black;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .profile p {
+            font-size: 1.4rem;
+            text-align: center;
+        }
+
+        /*Contacto*/
+        .contact{
+            margin: 3%;
+        }
+
+        .contact h2{
+            color: black;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .contact p {
+            display: block;
+            font-size: 1.4rem;
+            margin-bottom: 3%;
+        }
+
+        .name{
+            display: block;
+        }
+
+        /*Habilidades*/
+        .skills {
+            display: none;
+        }
+
+        /*NOMBRE*/
+        .name h1{
+            display: none;
+        }
+
+
+        /*PARTE AZUL*/
+    .presentation{
+        width: 100%;
+        height: auto;
+        background-color: #70c8ff;
+        margin: 0;
+        border-radius: 0%;
+        border: none;
+        box-shadow: none;
+    }
+
+    .presentation hr{
+        height: 1px;
+        width: 95%;
+        border-style: none;
+        margin: 2%;
+        background-color: #007ccf;
+    }
+
+    .experience{
+        text-align: center;
+    }
+
+    .experience h2{
+        margin: 3%;
+        text-align: center;
+    }
+    .electricista h3{
+        margin: 5% 0 4% 0;
+        text-align: center;
+    }
+    
+    .electricista h4{
+        margin: 1% 0 2% 0;
+        text-align: center;
+    }
+    
+    .electricista p{
+        margin: 1%;
+        text-align: center;
+    }
+
+    .cervezas h3{
+        margin: 8% 0 5% 0;
+        text-align: center;
+    }
+    
+    .cervezas h4{
+        margin: 1% 0 2% 0;
+        text-align: center;
+    }
+    
+    .cervezas p{
+        margin: 1% 0 5% 0;
+        text-align: center;
+    }
+
+
+    .study{
+        text-align: center;
+    }
+    .study h2{
+        margin: 1% 0 5% 0;
+    }
+    .study-1 h4{
+        margin: 1%;
+    }
+    .study-1 p{
+        margin: 1% 0 5% 0;
+    }
+    
+    .study-2 h4{
+        margin: 1%;
+    }
+    .study-2 p{
+        margin: 1% 0 5% 0;
+    }
+    }
