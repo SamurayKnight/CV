@@ -38,34 +38,33 @@
 
     /*IMÁGEN*/
         .image{
-            background-color: #FFB830;    
             margin: 10% 20% 10% 25%;
             border-radius: 50%;
             width: 50%;
             height: 20%;
         }
-
-        .image img{
+        
+        .image img{    
             border-radius: 50%;
             width: 100%;
             height: 100%;
         }
 
         /*Perfil*/
-            .profile{
-                height: 35%;
-            }  
-
             .profile h2{
-                color: #FFB830;
-                font-size: 2rem;
-                text-align: center;
-                margin-bottom: 5%;
+                
+            font-size: 2.25rem;
+                margin: 6%;
+    font-weight: bold;
+
+
             }
 
             .profile p{
                 font-size: 1.5rem;
                 margin-bottom: 7%;
+                margin: 6%;
+    font-size: 1.3rem
             }   
 
         /*Contacto*/
@@ -141,98 +140,74 @@
 
     /*NOMBRE*/
         .name {
-            font-size: 2.7rem;
+            font-size: 2.75rem;
+            text-align: center;
+            margin-bottom: 5%;
         }
-
-        .name h1{
-            margin: 2% 0 0 8%;
-        }
-
+        
         .name h2{
-            margin: 3% 0 0 9%;
+            margin: 5%;
+            color: #FFB830;
+        }
+        
+        .name h3{
+            margin: 5%;
             font-size: 2rem;
         }
 
 
     /*EXPERIENCIA*/
+
         .experience{
             width: 95%;
             margin: auto;
         }
 
         .experience h2{
-            margin: 1% 0 1% 6%;
+            margin: 6% 3%;
             font-weight: bold;
-            font-size: 1.7rem;
+            font-size: 1.8rem;
         }
-
+        
+        
             /*Electricidad*/
             .electricista h3{
-                margin: 2% 0 2% 6%;
+                margin: 3%;
                 font-weight: bold;
                 font-size: 1.6rem;
             }
 
-            .electricista h4{
-                margin: 2% 0 2% 8%;
-                font-weight: bold;
-                font-size: 1.4rem;
-            }
-
             .electricista p{
-                margin: 2% 0 3% 8%;
+                margin: 5%;
                 font-size: 1.3rem;
             }
 
 
             /*Cervezas*/
             .cervezas h3{
-                margin: 2% 0 2% 6%;
+                margin: 3%;
                 font-weight: bold;
                 font-size: 1.6rem;
             }
 
-            .cervezas h4{
-                margin: 2% 0 2% 8%;
-                font-weight: bold;
-                font-size: 1.4rem;
-            }
-
             .cervezas p{
-                margin: 2% 0 3% 8%;
+                margin: 5%;
                 font-size: 1.3rem;
             }
 
 
+
         /*ESTUDIOS*/
-        .study h2{
-            margin: 3% 0 3% 8%;
+        .study h2{ 
+            margin: 0% 6%;
             font-weight: bold;
-            font-size: 1.7rem;
-            }
-
-        .study-1 h4{
-            margin: 2% 0 2% 8%;
-            font-weight: bold;
-            font-size: 1.4rem;
+            font-size: 1.8rem;
         }
 
-        .study-1 p{
-            margin: 2% 0 5% 10%;
+        .study p{
             font-size: 1.3rem;
+            margin: 4% 7%;
         }
-            
-        .study-2 h4{
-            margin: 2% 0 2% 8%;
-            font-weight: bold;
-            font-size: 1.4rem;
-        }   
-
-        .study-2 p{
-            margin: 2% 0 5% 10%;
-            font-size: 1.3rem;
-        }
-
 
 
     /*MEDIA QUERIES*/
@@ -290,12 +265,10 @@
         }
 
         /*Perfil*/
-        .profile{
-            height: 35%;
-        }
 
         .profile h2{
-            font-size: 1.4em;
+            font-size: 1.8em;
+            margin: 5% 7% 2%;
         }
         .profile p {
             font-size: 1.3rem;
@@ -332,7 +305,7 @@
             list-style: none;
         }        
         .skills ul li {
-            margin-bottom: 5%;
+            margin-bottom: 6%;
             font-size: 1.4rem;
         }
     }
@@ -660,7 +633,7 @@
             height: 1px;
             width: 95%;
             border-style: none;
-            margin: 2%;
+            margin:  2%;
             background-color: #007ccf;
         }
 
@@ -792,13 +765,10 @@
         margin: 3%;
         text-align: center;
     }
+
+
     .electricista h3{
-        margin: 5% 0 4% 0;
-        text-align: center;
-    }
-    
-    .electricista h4{
-        margin: 1% 0 2% 0;
+        margin: 4%; 
         text-align: center;
     }
     
@@ -808,13 +778,7 @@
     }
 
     .cervezas h3{
-        margin: 8% 0 5% 0;
-        text-align: center;
-    }
-    
-    .cervezas h4{
-        margin: 1% 0 2% 0;
-        text-align: center;
+        margin: 4%;
     }
     
     .cervezas p{
