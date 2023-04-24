@@ -227,9 +227,7 @@
         }
 
         /*Contacto*/
-        .contact h2{
-            font-size: 1.4rem;
-        }
+
         .contact p {
             font-size: 1.3rem;
         }
@@ -266,10 +264,6 @@
 
         /*Perfil*/
 
-        .profile h2{
-            font-size: 1.8em;
-            margin: 5% 7% 2%;
-        }
         .profile p {
             font-size: 1.3rem;
         }
